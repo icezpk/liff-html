@@ -13,6 +13,7 @@ function initializeApp(data) {
     document.getElementById('utouidfield').textContent = data.context.utouId;
     document.getElementById('roomidfield').textContent = data.context.roomId;
     document.getElementById('groupidfield').textContent = data.context.groupId;
+    document.getElementById('json_rs').textContent = JSON.stringify(data) + "\nIn context\n" + JSON.stringify(data.context);
 
     // openWindow call
     document.getElementById('openwindowbutton').addEventListener('click', function () {
