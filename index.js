@@ -1,5 +1,4 @@
 // JavaScript source code
-// JavaScript source code
 window.onload = function (e) {
     liff.init(function (data) {
         initializeApp(data);
